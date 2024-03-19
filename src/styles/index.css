@@ -1,0 +1,129 @@
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+img {
+  display: block;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: 'SimSun', '宋体';
+}
+
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+select,
+input {
+  vertical-align: middle;
+}
+
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+
+input[type='text'],
+input[type='password'],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+
+textarea {
+  resize: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+* {
+  font-weight: 500;
+}
+
+body {
+  background-color: #1a1c26;
+}
+
+/* 按钮 */
+.el-button {
+  /* border: 1px solid  #c6426e; */
+  border: 1px solid #6c34ce;
+}
+
+.el-button:hover {
+  /* border: 1px solid  #c6426e; */
+  border: 1px solid #8f59ec;
+}
+
+.el-button:focus {
+  /* border: 1px solid  #c6426e; */
+  border: 1px solid #8f59ec;
+}
+
+.el-button--info {
+  border: 1px solid #565656;
+  background-color: #565656;
+}
+
+.el-button--info:hover {
+  border: 1px solid #ccc;
+  background-color: #565656;
+}
+
+.el-button--info:focus {
+  border: 1px solid #ccc;
+  background-color: #565656;
+}

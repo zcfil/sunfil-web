@@ -1,0 +1,43 @@
+// 主题
+$xtxColor: #27ba9b;
+// 辅助
+$helpColor: #e26237;
+// 成功
+$sucColor: #1dc779;
+// 警告
+$warnColor: #ffb302;
+// 价格
+$priceColor: #cf4444;
+
+/* nav导航 */
+$navColor: #fff;
+
+/* 卡片背景色 */
+$cardBgColor: #272932;
+
+/* 背景色-渐变紫  渐变草莓粉 */
+$bgColor: linear-gradient(179.64deg, #753dcf 0.32%, #53348d 80.94%);
+// $bgColor: linear-gradient(to right, #c6426e, #642b73);
+
+/* 背景色-红渐变草绿  粉渐紫 */
+// $bgColor2: linear-gradient(to right, #dd3e54, #6be585);
+// $bgColor2: linear-gradient(to right, #fc466b, #753dcf);
+$bgColor2: #753dcf;
+
+/* 数字-渐变紫  渐草莓粉 */
+$txtColor: linear-gradient(#9163d7 0%, #5921cb 100%);
+
+/* 进度条阈值-渐变草莓粉 */
+$progressColor: linear-gradient(to right, #c6426e, #642b73);
+
+$txtHoverColor: #6be585;
+
+// 骨架屏进度条颜色
+$elSkeletonColor: linear-gradient(
+  103deg,
+  #7b33c3 25%,
+  var(--el-skeleton-to-color) 37%,
+  var(--el-skeleton-color) 63%
+);
+
+$countFlopColor: #652dcc;
